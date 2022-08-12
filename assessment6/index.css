@@ -1,0 +1,253 @@
+.body{
+    width:100vw;
+    height:100vh;
+    background-image: url(./shara\ desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:50px;
+    left: 100px;
+    opacity: 70%;
+}
+.BUTTON{display:block;
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+color: brown ;
+
+    position: relative;
+    height: 30PX;
+    right: -1200px;
+    
+}
+.button2{
+    display: flex;
+    gap:30px;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+    
+}
+
+.text{ position: relative;
+       width: 50%;
+       align-items: center;
+       height: auto;
+       top:50px;
+       color: white;
+       left: 100ox;
+       opacity: 100%;}
+
+.h1{
+    font-size:100px ;
+}
+
+.explore{
+         width: 200px; 
+         height: 40px;
+         background-color:white;
+         color: black;
+         text-align: center;
+         border-radius:20px;
+         padding-top: 10px;
+}
+.container1{
+          width: 50%;
+          height: auto;
+          gap: 10px;
+          display: flex;
+          flex-wrap: wrap;
+
+}
+.box{
+    width:200px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+
+}
+ 
+
+ 
+
+#box1{ position: relative;
+    background-image:  url(./pic-1.png) ;
+    background-size: 100% 100%;
+    transition: top 5s linear;
+}
+#box1:hover{ top:10px;
+
+}
+
+
+#box2{ position: relative;
+    background-image: url(./pic-2.png);
+    background-size: 100% 100% ;
+    transition: top 5s linear;
+}
+#box2:hover{ top:10px;
+
+}
+
+#box3{position: relative;
+    background-image: url(./pic-3.png);
+    background-size: 100%  100%;
+    transition: top 5s linear;
+}
+#box3:hover{ top:10px;
+
+}
+#box4{position: relative;
+    background-image: url(./pic-4.png);
+    background-size: 100% 100%;
+    transition: top 5s linear;
+
+}#box4:hover{ top:10px;
+
+}
+
+@media screen and (min-width:350px) and (max-width:700px){
+   .body{
+    background-repeat: repeat-y;
+   }
+
+   .logo{
+    top:50px;
+    left: 40px;
+    
+}
+#logo{
+      width: 40px;
+      height: 40px;
+}
+    .BUTTON{display:block;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        color: brown ;
+        
+            position: relative;
+            height: 30PX;
+            left:200px;
+            
+        }
+        .button2{
+            display: inline;
+            gap:30px;
+        }
+        .container{
+            align-items: center;
+        }
+
+        .text{
+            width:100%;
+            height: auto;position: relative;
+            align-items: center;
+            
+            
+            height: auto;
+            top:5px;
+            color: white;
+            left: 30px;
+        }
+        .h1{
+            font-size: 50px;
+        }
+    .container1{
+        width: 100%;
+        height: auto;
+    }
+    #container2{
+        width:90%
+    }
+    #container3{
+        width: 90%;
+    }
+    
+    .box{
+        width:80%;
+        height:200px;
+        margin: 20px;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+    
+    }
+    
+}
+
+@media screen and (min-width:700px) and (max-width:1200px) {
+    .body{
+        background-repeat: repeat-y;
+       }
+       
+       .BUTTON{display:block;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        color: brown ;
+        
+            position: relative;
+            height: 30PX;
+            left:200px;
+            
+        }
+        .container{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center; 
+            gap: 100px;
+        }
+
+        text{
+            width:80vw;
+            height: auto;position: relative;
+            font-size:80px ;
+            top:5px;
+            color: white;
+            left: 10px;
+        }
+        .h1{
+            font-size: 70px;
+        }
+    .container1{
+        width: 60vw;
+        height: auto;
+        top: 200px;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .box{
+        width:500px;
+        height:300px;
+        margin: 20px;
+    
+        text-align: center;
+        font-size: 10px;
+        color: white;
+    
+    } #container2{ 
+        width:90%
+    }
+    #container3{
+        width: 90%;
+    }
+    
+}
